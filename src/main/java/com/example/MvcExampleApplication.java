@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class MvcExampleApplication {
 	@GetMapping("/")
 	public String he(){
+		System.out.println("**Hello****");
 		return "hello";
 	}
 
